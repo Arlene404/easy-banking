@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.items a{
+    text-decoration: none;
+    color: hsl(233, 8%,62%);
+    font-size: 18px;
+    font-family: 30px;
+    margin-left: 10px;
+    
+}
+
+.nav-bar button{
+    padding: 15px 30px;
+    border: none;
+    outline-width: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 24px;
+    font-weight: 400;
+    background-image: linear-gradient(120deg,hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+.mid-photo{
+    background-image: url(images/bg-intro-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.mid-photo img{
+    width: 500px;
+    padding-right: 60px;
+
+}
+.mid-word{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mid-word h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+    line-height: 1.1;
+
+}
+
+.mid-word p{
+
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.mid-word button{
+    padding: 15px 30px;
+    border: none;
+    outline-width: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 24px;
+    font-weight: 400;
+    background-image: linear-gradient(120deg,hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+}
+
+.below{
+    background-color: hsl(220, 16%, 96%);
+    padding-left: 80px;
+    width: 100%;
+   
+
+}
+
+.below-word{
+    padding-top: 10vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10vh;
+}
+.below-word h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+}
+
+.below-word p{
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 15px;
+    font-weight: 700;
+
+}
+
+.graph{
+    display: flex;
+    justify-content: space-between;
+}
+.under{
+    background-color: rgb(247, 244, 244);
+    padding-left: 50px;
+   
+}
+
+.under-once{
+    display: flex;
+    gap: 20px;
+ 
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.under-twice{
+    background-color: white;
+    gap: 20px;
+}
+
+.under-twice img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.under{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.under h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+   padding-left: 50px;
+
+
+}
+
+.under-twice h5{
+
+    padding-top: 30px;
+
+}
+.under-twice h3{
+    padding-top: 20px;
+}
+
+.under-twice p{
+    padding-top: 10px;
+    font-size: 14px;
+    
+
+}
+
+/*  */
+
+
+.find{
+    display: flex;
+    background-color:hsl(233, 26%, 24%);
+}
+
+
+.foot-two img{
+    width: 20px;
+    height: 20px;
+}
+
+.foot-two{
+    padding-top: 80px;
+}
+
+.foot-one{
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.foot-three{
+   justify-content: space-around;
+   padding-left: 60px;
+   padding-bottom: 30px;
+   padding-top: 40px;
+}
+.foot-three a{
+    color: white;
+}
+
+.foot-three a{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-top: 10px;
+   padding-left: 30px;
+}
+
+.foot-four{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 12px;
+    padding-top: 50px;
+    padding-left: 80px;
+
+
+}
+
+.foot-four a{
+    color: white;
+}
+
+.foot-five button{
+
+    padding: 15px 30px;
+    border: none;
+    outline-width: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 24px;
+    font-weight: 400;
+    background-image: linear-gradient(120deg,hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+
+}
+
+.foot-five{
+    padding-left: 400px;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.foot-five p{
+    color: white;
+}
+
+
